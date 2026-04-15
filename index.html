@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gains Idle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gains</h1>
+    <div>Gains: <span id="gains">0</span></div>
+
+    <div class="tabs">
+        <button onclick="showTab('gainsTab')">Gains</button>
+        <button onclick="showTab('shopTab')">Shop</button>
+        <button onclick="showTab('inventoryTab')">Inventory</button>
+        <button onclick="showTab('combatTab')">Combat</button>
+    </div>
+
+    <div id="gainsTab" class="tab active"></div>
+    <div id="shopTab" class="tab"></div>
+    <div id="inventoryTab" class="tab"></div>
+    <div id="combatTab" class="tab"></div>
+
+    <script src="game.js"></script>
+</body>
+</html>

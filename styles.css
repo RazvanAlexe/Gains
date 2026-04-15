@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: #eee;
+    text-align: center;
+}
+
+.tabs button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.tab {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.card {
+    border: 1px solid #444;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hidden {
+    filter: blur(6px);
+}
+
+button {
+    margin: 5px;
+}
