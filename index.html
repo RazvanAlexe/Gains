@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gains Idle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYFZLTM6P1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZYFZLTM6P1');
+</script>
+<body>
+    <h1>Gains</h1>
+    <div>Gains: <span id="gains">0</span></div>
+    <button onclick="resetProgress()">Reset Progress</button>
+
+    <div class="tabs">
+        <button onclick="showTab('gainsTab')">Gains</button>
+        <button onclick="showTab('shopTab')">Shop</button>
+        <button onclick="showTab('inventoryTab')">Inventory</button>
+        <button onclick="showTab('combatTab')">Combat</button>
+    </div>
+
+    <div id="gainsTab" class="tab active"></div>
+    <div id="shopTab" class="tab"></div>
+    <div id="inventoryTab" class="tab"></div>
+    <div id="combatTab" class="tab"></div>
+
+    <!-- Corner Links -->
+    <div class="corner-links">
+        <a href="https://ko-fi.com/razvanalexe" target="_blank">
+            <button>Support (Ko-fi)</button>
+        </a>
+        <a href="https://x.com/RazvanAlexe95" target="_blank">
+            <button>Follow (X)</button>
+        </a>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

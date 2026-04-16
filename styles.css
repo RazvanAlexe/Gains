@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: #eee;
+    text-align: center;
+}
+
+.tabs button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.tab {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.card {
+    border: 1px solid #444;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hidden {
+    filter: blur(6px);
+}
+
+button {
+    margin: 5px;
+}
+
+.desc {
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+/* Corner buttons */
+.corner-links {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+    .corner-links button {
+        padding: 8px;
+        font-size: 12px;
+        cursor: pointer;
+    }
